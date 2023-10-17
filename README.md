@@ -1,6 +1,6 @@
 # Obsidian-Zotero workflow
 
-This git describes a set-up process to use obsidian in combination of Zotero for scientific research, aimed for a Linux distribution (and in particular a Fedora distribution).
+This git describes a set-up process to use obsidian in combination of Zotero for scientific research, aimed for a Linux distribution (and in particular a Fedora distribution since it is my set-up).
 
 ## Workflow description
 
@@ -15,19 +15,17 @@ The workflow described here will have the following separation:
 
 The important part is now to link Zotero and Obsidian. This repository will serve as guideline for this process to work without issue, mostly on a Linux distribution. 
 
-<!-- TODO: add screenshots of my setup here, with notes examples etc -->
+<!-- TODO: add screenshots of my setup here, with notes examples, graph view etc -->
 
 ## Installation
 Because of Linux's features, some problems can be found when linking Zotero to Obsidian. In particular, installations using `snap` or `flatpack`, which are the main installations packages for both of these applications. This is due to their containment policies, forbidding obsidian from detecting Zotero.
 
 ### Installing Zotero
-Go to the [official release page]()
+Go to the [official release page](https://www.zotero.org/download/). This should provide you with the latest version in a compressed folder. You can then follow their [installation guide](https://www.zotero.org/support/installation) for your system. You may also want to install the Zotero connector on your browser, since it is a very powerful tool.
 
 
 ### Installing Obsidian
-Two possible path are open to install obsidian. Go to their [official download page](https://obsidian.md/download). 
-
-You can either:
+Two ways to install obsidian are available. Go to their [official download page](https://obsidian.md/download). From there, you can either:
 * Use the `.deb` file (not natively supported on Fedora to my knowledge)
 * Use the `AppImage` installation 
 
@@ -39,4 +37,12 @@ Either case, Obsidian should be installed, you can try to launch it and create a
 
 The template used here is a manually changed version of this [templating repo](https://github.com/nocona71/obsidian-literature-note/blob/main/README.md). You can also use their basic version and fine-tune it to the shape you prefer.
 
+To copy the templates, if you want to synchronize with this git repository, you should perform the following command:
+```bash
+ln /path/to/this/repo/Templates/* /path/to/your/obsidian/vault/Templates/
+```
+
+<!-- TODO: explain how to set up the template inside obsidian with screenshots -->
+
 ### List of recommended Obsidian packages
+<!-- TODO -->
