@@ -37,5 +37,6 @@ Either case, Obsidian should be installed, you can try to launch it and create a
 
 ### Setting up zotero-export
 
+The template used here is a manually changed version of this [templating repo](https://github.com/nocona71/obsidian-literature-note/blob/main/README.md). You can also use their basic version and fine-tune it to the shape you prefer.
 
 ### List of recommended Obsidian packages
