@@ -84,7 +84,10 @@ From then, you can call the command palette, and type the name you gave your tem
 <!-- TODO: explain how to set up the template inside obsidian with screenshots -->
 
 ### List of recommended Obsidian packages
-* `Image Toolkitt`: This plugin allows you to zoom in on an image by clicking it, instead of having to open the image inside Zotero. To me, it is a must-have if you integrate images in your notes.
+This is the list of packages I personally use in obsidian, sorted by order of importance to me. It is a subjective view, but some are more miscellaneous than the others.  I definitely recommend having a look at least at the first few. 
+
+* `Image Toolkit`: This plugin allows you to zoom in on an image by clicking it, instead of having to open the image inside Zotero. To me, it is a must-have if you integrate images in your notes.
+* `Excalidraw`: This is one of the most popular plugin on obsidian, it provides a lot more functionality compared to the basic Obsidian canvas feature, allowing you to organize your notes neatly. The plugin itself links to short presentation videos that allows you to familiarize easily with the tool. 
 * `Periodic Notes`: This plugin generalizes the concept of obsidian's daily notes, and allows you to create weekly or monthly notes. This can also use a template, albeit much simpler. Some basic example templates are available under `Templates/`
 * `Calendar`: This plugin is a good synergy with `Periodic Notes`, as it allows to visualize the month in a calendar and to simply access the daily or weekly notes of a given day or week. 
 * `KanBan`: This plugin allows for a very neat TODO items visualization, used in a screenshot above.
@@ -94,4 +97,4 @@ From then, you can call the command palette, and type the name you gave your tem
 
 ### TODOS:
 * [ ] Add a section for Periodic notes set-up, in particular the dating scheme.
-* [ ] 
+* [ ] Detail the CSS files necessary for some plugins.
