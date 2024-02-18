@@ -1,0 +1,47 @@
+/* My colors for headers 
+You can change colors as you like in this file*/
+
+.inline-title {
+    color: #a90000
+  }
+  
+  .markdown-preview-view h1 {
+      color: #a95000;
+  }
+  
+  .cm-header-1 {
+      color: #a95000;
+  }
+  
+  .markdown-preview-view h2 {
+      color: #acaf00;
+  }
+  
+  .cm-header-2 {
+      color: #acaf00;
+  }
+  
+  .markdown-preview-view h3 {
+      color: #00ab17;
+  }
+  
+  .cm-header-3 {
+      color: #00ab17;
+  }
+  
+  .markdown-preview-view h4 {
+      color: #005788;
+  }
+  
+  .cm-header-4 {
+      color: #005788;
+  }
+  
+  .markdown-preview-view h5 {
+      color: #df95aa;
+  }
+  
+  .cm-header-5 {
+      color: #df95aa;
+  }
+  

@@ -1,0 +1,21 @@
+/* 
+    Fix of the inconsistent headers tabulation in live preview, in particular for the task plugin.
+    Solution based on https://forum.obsidian.md/t/inconsistent-page-header-spacing-on-default-theme/66916 
+*/
+
+/* Fix on header margin so editor and preview reflect the same padding */    
+body {    
+    --heading-spacing: var(--p-spacing);    
+}    
+
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header + *:not(.HyperMD-header) {    
+    /* dont use margin-top, it breaks cm-line, skipping empty lines when trying to navigate */    
+    padding-top: var(--p-spacing) !important;    
+}    
+.markdown-source-view.mod-cm6 .cm-content > .HyperMD-header + .cm-line.cm-active:not(.HyperMD-header) {    
+    padding-top: var(--p-spacing) !important;    
+}
+
+ul > li.task-list-item .task-list-item-checkbox {
+    margin-inline-start: unset !important;
+}

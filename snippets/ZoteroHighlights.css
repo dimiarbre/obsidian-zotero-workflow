@@ -1,0 +1,23 @@
+/* Zotero import custom colors, used after zotero notes are imported.
+ */
+
+.customZot-Yellow {
+    background-color: rgba(255, 255, 0, 1) !important;
+}
+
+.customZot-Green {
+    background-color: rgba(0, 255, 47, 1) !important;
+}
+
+.customZot-Blue {
+    background-color: rgba(0, 175, 255, 1) !important;
+}
+
+.customZot-Purple {
+    background-color: purple !important;
+}
+
+.customZot-Red {
+    background-color: rgba(255, 0, 0, 1) !important;
+}
+
