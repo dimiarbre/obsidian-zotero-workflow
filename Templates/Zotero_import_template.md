@@ -270,10 +270,9 @@ aliases: ["{{title | replace ('"','')}}"{%- if authors and date-%}, "
 {%- endif %}
 {{ "" }}
 
-{%- set newNotes = notes -%}
-{% if newNotes.length > 0 %}
+{% if notes.length > 0 %}
 ⬇️*Imported (Notes) on: {{importDate | format("YYYY-MM-DD#HH:mm:ss")}}*⬇️
-{% for note in newNotes %}
+{% for note in notes %}
 ### 🟨 Note (modified: {{ note.dateModified | format("YYYY-MM-DD#HH:mm:ss") }})
 [Link to note](zotero://select/library/items/{{note.key}})
 {{printTags(note.tags)}}

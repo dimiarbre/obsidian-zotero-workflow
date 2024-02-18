@@ -4,11 +4,38 @@ tags:
   - periodic
   - note
 ---
+# Daily Todo {{date}}
 
-## Objectifs
+## Due today:
+```tasks
+due on {{date:YYYY-MM-DD}}
+```
 
+## Plan of the day:
+```tasks
+scheduled on {{date:YYYY-MM-DD}}
+```
 
-## Idées importantes
+## Most Important Task
+- [!] ...
 
+## Must Do
+- [+] ...
+- [+] ...
+- [+] ...
 
-## Objectifs de demain
+# Planning
+- [D] ...
+
+# Readings
+- [N] ...
+
+# Others notes and remarks
+- [b] ...
+- [I] ...
+
+# Another day
+- [>] ...
+
+# Mood
+😎 🌞 ⛅ ☁ ⛈😶‍🌫 🛌
