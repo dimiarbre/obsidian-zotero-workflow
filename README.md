@@ -81,15 +81,29 @@ Once this is done, you can call the command palette (`ctrl + P`), and type the n
 ![The Zotero integration prompt](assets/zotero_integration_prompt.png)
 <!-- TODO: explain how to set up the template inside obsidian with screenshots -->
 
-### List of recommended Obsidian packages
+## Organization with Periodic Notes and Tasks
+You can also organize your notes using two useful plugins: `Periodic Notes` and `Tasks`. The first one is simply a generalization of obsidian's daily notes, allowing to have daily, weekly and/or monthly notes. The second one is a great way to organize your progress. An example of queries one can do (and that I personnally use) is the file `TODO-list.md`. I usually pin this file in obsidian, so that it is always at the same place in all my navigations, even after closing and re-opening obsidian.
+
+To use `Tasks`, I recommand following their configuration advices. The tag I use is `#task`. I also recommand mapping the `Tasks: Toggle task done` command to the same shortcut as `Toggle checkbox status` (default `Ctrl + L`) if you use it, as it will override the ticking correctly - complete a task if it is a task, otherwise simply  
+
+Periodic notes can be generated using a template directly, with syntax based on Nunjucks (see the `daily_notes.md` and `weekly_notes.md` files under `Templates/`). The templates in this repository are also designed to create queries for the tasks that are scheduled or due on the current day or week, which is a great way to automatically generate a plan for the day. Feel free to remove the task queries if you do not want to use this plugin, but still want daily notes. 
+
+Finally, if you obtain on organisation that can be seen on the image below. Notice where the calendar is placed: you can directly click on days to go to a daily/weekly note at all times, or generate it from the template automatically if it does not exist yet.
+![obsidian layout with todos](assets/obsidian_layout_todo_and_calendar.png)
+(*This screenshot uses the PLN theme, which I switched to recently. Go to `parameters>Appearance>Themes` to find it, or any other theme you like*)
+
+Some of these plugins or templates come with tweaks that I do in the CSS styling for better visual results, see the `snippets` folder for more details. You can simply copy the files into your `.obsidian/snippets/` folder if you want to use those snippets (or if you pulled the git, use `ln` to be able to pull future updates). Remember these snippets must be activated in the parameters `Appearance>CSS snippets`
+
+## List of recommended Obsidian packages
 This is the list of packages I personally use in obsidian, sorted by order of importance.
 
+* `Tasks`: Very practical plugin to organize tasks, so that todo items are not scattered everywhere in your vault.
 * `Image Toolkit`: This plugin allows you to zoom in on an image by clicking it, instead of having to open the image inside Zotero. A must-have if you integrate images in your notes.
 * `Excalidraw`: This is one of the most popular plugin on obsidian, it provides enhanced functionality compared to the basic Obsidian canvas feature, allowing you to organize your notes neatly. The plugin itself links to short presentation videos, making it easy to master.
 * `Periodic Notes`: This plugin generalizes the concept of obsidian's daily notes, and allows you to create weekly or monthly notes. This can also use a template, albeit much simpler. Some basic example templates are available under `Templates/`
 * `Calendar`: This plugin is a good synergy with `Periodic Notes`, as it allows to visualize the month in a calendar and to simply access the daily or weekly notes of a given day or week. 
-* `KanBan`: This plugin allows for a very neat TODO items visualization, used in a screenshot above.
-* `Advanced Tables`: A neat table edition toolbar that is lacking in Obsidian, making editing big table less painful. If you plan to use tables, I definitely recommend you take a look.
+* `KanBan`: This plugin allows for a very neat TODO items visualization, used in a screenshot above. 
+* `Advanced Tables`: A neat table edition toolbar that is lacking in Obsidian, making editing big table less painful. If you plan to use tables, I definitely recommend you take a look. This plugin may be less necessary since a recent obsidian update on tables.
 * `Emoji-Shortcode`: This plugin lets the user type emojis as they would in Discord, which is very convenient for me. 
 
 
